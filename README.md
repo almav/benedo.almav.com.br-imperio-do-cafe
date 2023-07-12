@@ -32,7 +32,7 @@ Incluir a API do Almav Mapas no seu arquivo HTML:
 > ---
 > IMPORTANTE
 > 1. Ao incluir o Mapa Interativo via **iFrame**, funções como o botão de GPS e tela cheia não irão funcionar. Utilize sempre a implementação por meio do código javascript.
-> 2. No console (Painel) de administração do Mapa Interativo, será necessário incluir todos os domínios permitidos para integração. 
+> 2. Administração do Mapa Interativo: será necessário autorizar todos os domínios que receberão a integração, **informe a Almav** sobre os endereços. Por exemplo: https://www.benedo.com.br/
 
 Demonstração do Mapa Interativo: https://benedo.almav.com.br/imperio-do-cafe
 
