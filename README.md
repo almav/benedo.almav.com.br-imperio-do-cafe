@@ -6,7 +6,7 @@ Quick Start Mapa Interativo
 EXEMPLO ELEMENTO DESTINO
 
 ```html
-<div id=”map”></div>
+<div id="map"></div>
 ```
 
 ## 2. Script inicial
@@ -15,8 +15,8 @@ EXEMPLO FUNÇÃO RETORNO
 ```javscript
 let map;
 function initMap() {
-  map = new almav.maps.Map(document.getElementById(“map”), {
-      “settings-id”: 1,
+  map = new almav.maps.Map(document.getElementById("map"), {
+      "settings-id": 1,
   });
 }
 ```
@@ -25,7 +25,7 @@ function initMap() {
 
 Incluir a API do Almav Mapas no seu arquivo HTML:
 ```javascript
-<script src=”https://benedo.maps.almav.com/maps/api/js?key=<chave>&callback=<retorno>” async></script>
+<script src="https://benedo.maps.almav.com/maps/api/js?key=<chave>&callback=<retorno>" async></script>
 ```
 `utilize a chave:` **a82187bd-ea98-43dc-b8e9-ba17a0f0861e**
 
